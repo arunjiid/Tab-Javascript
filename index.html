@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Hello Tab!</h1>
+    
+    <nav> 
+    
+    <ul> 
+    <li> <a href="javascript:tabswitch('tab1','content1');" class="tabmenu active"> Tab1</a></li>
+  
+    <li> <a href="javascript:tabswitch('tab2','content2');" class="tabmenu"> Tab2 </a></li>
+    
+    <li> <a href="javascript:tabswitch('tab3','content3');" class="tabmenu"> Tab3 </a></li>
+    
+    
+    <li> <a href="javascript:tabswitch('tab3','content4');" class="tabmenu"> Tab4</a></li>
+   
+   
+   </ul>
+    
+    </nav>
+    
+    <div style="clear:both;"> </div>
+
+    <div class="tab_content" id="content1"> 
+    
+    First Tab
+    
+    </div>
+    
+   <div class="tab_content" id="content2" style="display:none;">
+     
+     Second Tab
+     
+      </div>
+        
+        
+        
+    <div class="tab_content" id="content3" style="display:none;">
+      
+      Third Tab
+      
+    </div>    
+    
+  <div class="tab_content" id="content4" style="display:none;"> 
+  
+  
+  Fourth Tab
+  
+  </div>
+    
+    
+    
+  </body>
+
+</html>

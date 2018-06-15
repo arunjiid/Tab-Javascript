@@ -1,0 +1,7 @@
+/* Styles go here */
+
+nav > ul {margin:0px; padding:0px;}
+
+nav > ul > li { float:left;  list-style:none;}
+
+nav > ul > li a {display:block;  margin:5px 10px; padding:10px 10px; text-decoration:none; background:green; color:#fff;}
